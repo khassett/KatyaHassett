@@ -148,7 +148,6 @@ a {
         justify-content: left;
         width: 80%;
         margin: 0 auto;
-        max-width: 1150px;
     }
 
 .nav-li {
@@ -678,16 +677,7 @@ Remove or comment-out the code block below to see how the browser will fall-back
       align-content: center;
 }
 
- /* MEDIA QUERIES */ 
- @media only screen and (max-width: 300px) { 
-    h1 {
-        color: "red";
-    }
-
-    .gallery{
-        margin: 0 20px;
-    }
-}
+ 
 
 .col-left{
     margin-left: 200px;
@@ -791,3 +781,14 @@ Remove or comment-out the code block below to see how the browser will fall-back
         margin-top: -30px;
         margin-right: 10px;
     }
+
+    /* MEDIA QUERIES */ 
+@media only screen and (max-width: 600px) { 
+    h1 {
+        color: "red";
+    }
+
+    .gallery{
+        margin: 0 20px;
+    }
+}
