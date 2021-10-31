@@ -732,7 +732,7 @@ Remove or comment-out the code block below to see how the browser will fall-back
       }
       
       .site-footer a {
-        color:#f5deb3;
+        color:#773F8A;
       }
       
       .site-footer a:hover {
@@ -807,7 +807,7 @@ Remove or comment-out the code block below to see how the browser will fall-back
         }
 
         .hp-projects {
-            padding: 70px 0 0px 0;
+            padding: 70px 0;
         }
 
         .creative-process {
