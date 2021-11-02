@@ -1,3 +1,7 @@
+.main-content{
+    margin: 50px 300px;
+}
+
 a:hover {
     text-decoration: none;
     font-weight: 600;
@@ -99,7 +103,6 @@ p{
 
 .h1-placement{
     margin-top: 70px;
-    padding: 50px 0 0 200px;
 }
 
 .text-link:hover{
@@ -112,7 +115,7 @@ p{
 
 .nav{
     width:100%;
-    padding: 0px 30px 40px;
+    padding: 0px 100px 40px;
     display: flex;
     font-family: "Inter", sans-serif;
     font-size: 18px;
@@ -363,9 +366,7 @@ align-items: center;
 
 .gallery {
     display: flex;
-    flex-wrap: wrap;
-    /* Compensate for excess margin on outer gallery flex items */
-    margin: -1rem -1rem;
+    flex-direction: row;
     margin: 0 200px;
 }
 
@@ -374,9 +375,9 @@ align-items: center;
     flex: 1 0 24rem;
     /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
     margin: 1rem;
-    box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    border-radius: 8px;
+    border-radius: 4px;
+    height: 400px;
     background-color: #f6ebfa;
 }
 
@@ -411,22 +412,6 @@ align-items: center;
 
 .gallery-container{
     cursor: pointer;
-}
-/*
-
-The following rule will only run if your browser supports CSS grid.
-
-Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
-
-*/
-
-@supports (display: grid) {
-    .gallery {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
-        grid-gap: 2rem;
-    }
-
 }
 
 
@@ -778,8 +763,7 @@ Remove or comment-out the code block below to see how the browser will fall-back
     @media (min-width:320px), (min-width:481px)  { 
         .gallery{
             margin: 0;
-            grid-gap: 0;
-            grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
+            flex-direction: column;
         }
 
         .wrapper {
@@ -818,6 +802,10 @@ Remove or comment-out the code block below to see how the browser will fall-back
     /* MEDIA QUERY TABLET */ 
     @media (min-width: 600px)  {
         .wrapper {
+            flex-direction: row;
+        }
+
+        .gallery {
             flex-direction: row;
         }
 
