@@ -728,10 +728,16 @@ align-items: center;
       .copyright-text {
         margin:0
       }
+
       
 
     /* MEDIA QUERY MOBILE */
     @media (min-width:320px), (min-width:481px)  { 
+        .main-content{
+            margin: 20px 20px;           
+        }
+        
+        
         .gallery{
             margin: 0;
             flex-direction: column;
@@ -771,7 +777,13 @@ align-items: center;
     }
 
     /* MEDIA QUERY TABLET */ 
-    @media (min-width: 600px)  {
+    @media (min-width: 600px) 
+    
+    {
+        .main-content{
+            margin: 50px 200px;           
+        }
+
         .wrapper {
             flex-direction: row;
         }
