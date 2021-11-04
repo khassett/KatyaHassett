@@ -382,7 +382,7 @@ align-items: center;
 }
 
 .gallery-item:nth-child(0) {
-    background-color: #D4C1ED;
+    background-color: #dad3ff;
 }
 
 .gallery-item:nth-child(2) {
@@ -390,7 +390,7 @@ align-items: center;
 }
 
 .gallery-item:nth-child(3) {
-    background-color: #B4C5ED;
+    background-color: #dad3ff;
 }
 
 .gallery-item:nth-child(4) {
@@ -400,6 +400,7 @@ align-items: center;
 
 .gallery-image {
     display: block;
+    padding: 70px;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -807,6 +808,9 @@ align-items: center;
             padding: 40px 0 25px 0;
         }
 
+        .gallery-image{
+            padding: 20px;
+        }
         .creative-process {
             padding: 100px 0;
         }
