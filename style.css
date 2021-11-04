@@ -370,14 +370,19 @@ align-items: center;
     margin: 0 200px;
 }
 
+.gallery-item-wrapper {
+    flex: 1 0 24rem;
+    margin: 1rem;
+    margin-bottom: 30px;
+}
+
 .gallery-item {
     /* Minimum width of 24rem and grow to fit available space */
-    flex: 1 0 24rem;
     /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
-    margin: 1rem;
-    overflow: hidden;
     border-radius: 4px;
+    overflow: hidden;
     height: 400px;
+    background-color: #f6ebfa;
 }
 
 .gallery-item-1{
