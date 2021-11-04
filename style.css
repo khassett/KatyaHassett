@@ -378,22 +378,21 @@ align-items: center;
     overflow: hidden;
     border-radius: 4px;
     height: 400px;
-    background-color: #f6ebfa;
 }
 
-.gallery-item:nth-child(0) {
+.gallery-item-1{
     background-color: #dad3ff;
 }
 
-.gallery-item:nth-child(2) {
-    background-color: #BED4BB;
+.gallery-item-2{
+    background-color: #BEECB7;
 }
 
-.gallery-item:nth-child(3) {
-    background-color: #dad3ff;
+.gallery-item-3{
+    background-color: #B4C5ED;
 }
 
-.gallery-item:nth-child(4) {
+.gallery-item-4{
     background-color: #FFEAF4;
 }
 
