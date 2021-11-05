@@ -543,7 +543,7 @@ align-items: center;
 }
 
 .img-comp{
-    width:50px;
+    width: 50px;
 }
 
 .rect{
@@ -618,6 +618,13 @@ align-items: center;
         margin-bottom: 70px; 
     }
 
+    .process-img{
+        display: block;
+        width: auto;
+        height: auto;
+        margin: 20px auto;
+        background-size: cover;
+    }
 
     .sitemap-img{
         display: block;
