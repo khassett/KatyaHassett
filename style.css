@@ -421,27 +421,6 @@ align-items: center;
 
 
 
-.card{
-    border-radius: none;
-    background-clip: none;
-    border: none;
-}
-
-.cardContainer{
-    border:none;
-}
-
-.card-title{
-    text-align: left;
-}
-
-.card:hover{
-    box-shadow: 0px 20px 25px -5px rgba(15, 23, 42, 0.1), 10px 10px 10px -5px rgba(15, 23, 42, 0.04);
-    margin-top: -10px;
-    cursor: pointer;
-}
-
-
 .column-center{
     display: flex;
     justify-content: center;
@@ -524,8 +503,8 @@ align-items: center;
 
 .about-me-img{
     display: block;
-    margin: 30px 0px;
-    width: 500px;
+    margin: 30px 30px;
+    width: 600px;
 }
 
 .arrow {
@@ -620,6 +599,14 @@ align-items: center;
     padding: 20px;
     margin: 20px;
     color: #592C5F;
+  }
+
+  .stake-col-spellit{
+    background-color: #ffeed0;
+    border-radius: 18px;
+    padding: 20px;
+    margin: 20px;
+    color: #000;
   }
 
   .img2{
