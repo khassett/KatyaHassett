@@ -696,10 +696,17 @@ align-items: center;
     /* MOBILE MEDIA QUERY */
     @media (min-width:320px), (min-width:481px)  
     { 
+        .nav {
+            padding: 0px 20px 20px;
+        }
+
+        .navbar-collapse {
+            justify-content: flex-end;
+        }
+
         .main-content{
             margin: 20px 20px;           
         }
-        
         
         .gallery{
             margin: 0;
@@ -760,6 +767,10 @@ align-items: center;
 
     /* TABLET MEDIA QUERY  */ 
     @media (min-width: 600px) {
+        .navbar-collapse {
+            justify-content: flex-end;
+            
+        }
         .main-content{
             margin: 50px 200px;           
         }
