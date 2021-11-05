@@ -27,17 +27,31 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     </head>
     <body class="mysite">
-        <header id="navbar" class="navbar sticky-top navbar navbar-light nav" style="background-color: #ffffff";>
-            <a href="index.html">
-                <img id ="logo" src="./images/logo.png" alt="Katya H. Logo">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top nav" id="navbar">
+            <a class="navbar-brand" href="index.html">
+                <img id ="logo" src="./images/logo.png" alt="Katya Hassett - UX/UI Designer">
             </a>
 
-            <ul class="main-nav nav-items">
-                <li class="nav-li"><a href="aboutme.html">ABOUT ME</a></li>
-                <li class="nav-li"><a href="myWork.html">WORK</a></li>
-                <li class="nav-li"><a href="contact.html">CONTACT</a></li>
-            </ul>
-        </header> 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutme.html">ABOUT ME</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="myWork.html">WORK</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link active" href="contact.html">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
         
         <div class="swirl"> 
             <svg height="500" width="100%" left="109px" position="absolute" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -122,11 +136,11 @@
                 </p>
             </div>
         </footer>
-    
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         </body>
-    
     </html>
         
-            </body>
-        
-        </html>
