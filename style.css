@@ -542,6 +542,10 @@ align-items: center;
     margin-top: 50px;
 }
 
+.img-comp{
+    width:50px;
+}
+
 .rect{
     width: 324px;
     height: 296px;
