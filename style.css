@@ -451,7 +451,7 @@ align-items: center;
 
 .work-img {
     background-size: contain;
-    max-width: 500px;
+    max-width: 450px;
 }
 
 .hor-line {
@@ -644,11 +644,11 @@ align-items: center;
       }
    
       .site-footer p {
-        color: #a7b1a9;
+        color: #9B8B8A;
       }
 
       .site-footer a {
-        color: #a7b1a9;
+        color: #9B8B8A;
       }
 
       .copyright-text {
@@ -711,6 +711,7 @@ align-items: center;
 
         .wrapper {
             flex-direction: column;
+            padding-bottom: 0px;
         }
 
         .content-left {
@@ -754,6 +755,7 @@ align-items: center;
         }
 
         .site-footer {
+            margin-top: 50px;
             padding-bottom:0;
             text-align: center;
         }
@@ -767,6 +769,7 @@ align-items: center;
 
         .wrapper {
             flex-direction: row;
+            padding-bottom: 20px;
         }
 
         .gallery {
@@ -806,10 +809,11 @@ align-items: center;
         }
 
         .work-img {
-            max-width: 500px;  
+            max-width: 450px;  
         }
 
         .site-footer {
+            margin-top: 50px;
             padding-bottom:0;
             text-align: center;
         }
