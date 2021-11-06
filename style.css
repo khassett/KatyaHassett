@@ -329,8 +329,40 @@ align-items: center;
     display: flex;
 }
 
+/* Table for heuristics*/
+
+table,th,td{
+      border:2px solid #005792;
+    }
+    table
+    {
+      border-collapse:collapse;
+      width:20%;
+    }
+    td
+    {
+      height:40px;
+      padding: 30px 15px;
+      line-height: 50px;
+
+    }
+    tr
+    {
+      background-color: #fff;
+      color:#000;
+    
+    }
+    th
+    {
+      background-color:#115CA7;
+      color: #fff;
+      font-weight: 300;
+      font-size: 32px;
+      padding: 0 15px;
+}
+
 .icon{
-    color: wheat;
+    width: 100px;
 }
 
 
@@ -430,13 +462,6 @@ align-items: center;
 .work-img {
     background-size: contain;
     max-width: 450px;
-}
-
-.hor-line {
-    width: 50%;
-    margin-top: 34px;
-    position: absolute;
-    left: 25%;
 }
 
 .w-100 {
@@ -588,6 +613,25 @@ align-items: center;
     margin: 20px;
     color: #000;
   }
+
+.stake-col-edgov{
+    background-color: #D0E2FC;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 20px;
+    color: #000;
+}
+
+.stake-col-insights{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 20px 40px rgba(144, 178, 228, 0.8);
+    padding: 30px;
+    margin: 2rem;
+    color: #000;
+    width: 40px;
+    text-align:left;
+}
 
   .img2{
     margin-right: 30px;
