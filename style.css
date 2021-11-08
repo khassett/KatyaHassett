@@ -465,17 +465,6 @@ table,th,td{
 }
 
 
-.work-col1 h4 {
-    margin-bottom: 30px;
-}
-
-.work-col1 p {
-    margin-bottom: 50px;
-}
-
-.work-col1 a {
-    margin-top: 10px;
-}
 
 .contact-info{
     display: flex;
