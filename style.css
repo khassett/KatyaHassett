@@ -240,11 +240,6 @@ a {
 
 }
 
-.creative-process{
-    padding: 100px 0;
-    margin: auto;
-}
-
 .hp-projects{
     padding: 100px 0 40px 0;
     margin: auto;
@@ -414,11 +409,12 @@ table,th,td{
     border-radius: 4px;
     overflow: hidden;
     height: 400px;
-    background-color: #f6ebfa;
 }
 
 .gallery-item-1{
-    background-color: #bca0d6;
+    background-color: #dac4d5;
+    border-color: #773F8A;
+    border-width: 2px;
     margin-right: 1rem;
 }
 
@@ -536,7 +532,7 @@ table,th,td{
   .cs-title{
       display: flex;
       flex-direction: column;
-      align-content: center;
+      align-content: left;
   }
 
 .cs-subtitle{
@@ -563,7 +559,7 @@ table,th,td{
 
 .img{
     margin-left: 30px;
-    width: 500px;
+    width: 600px;
     margin-top: 50px;
 }
 
@@ -609,10 +605,10 @@ table,th,td{
   .stake-col-spellit{
     background-color: #ffeed0;
     border-radius: 18px;
-    padding: 45px 50px 15px 30px;
+    padding: 15px 40px 15px 30px;
     margin: 20px;
     color: #000;
-    line-height: 60px;
+    line-height: 30px;
   }
 
 .stake-col-edgov{
@@ -654,9 +650,9 @@ table,th,td{
     }
 
     .process-img{
-        display: block;
-        width: auto;
-        height: auto;
+        display: flex;
+        flex-direction: column;
+        width: 1400px;
         margin: 20px auto;
         background-size: cover;
     }
@@ -730,8 +726,7 @@ table,th,td{
       }  
 
     /* MOBILE MEDIA QUERY */
-    @media (min-width:320px), (min-width:481px)  
-    { 
+    @media (min-width:300px), (max-width:481px){ 
         .nav {
             padding: 0px 20px 20px;
         }
@@ -769,6 +764,7 @@ table,th,td{
             width: 400px;
         }
 
+
         h1{
             font-size: 4.8rem;
             line-height: 5.5rem;
@@ -782,9 +778,6 @@ table,th,td{
             padding: 30px 0 30px 0;
         }
 
-        .creative-process {
-            padding: 70px 0;
-        }
 
         .gallery-image{
             padding: 20px;
@@ -846,10 +839,6 @@ table,th,td{
 
         .gallery-image{
             padding: 20px;
-        }
-
-        .creative-process {
-            padding: 100px 0;
         }
 
         .work-img {
