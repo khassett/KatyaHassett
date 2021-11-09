@@ -72,7 +72,7 @@ h4:before, h4:after {
 p{
     font-family: "Avenir Next", "Avenir", "Avenir Next W01", system-ui, sans-serif;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 300px;
     font-size: 18px;
     line-height: 1.8;
 }
@@ -659,14 +659,6 @@ table,th,td{
         margin-bottom: 70px; 
     }
 
-    .process-img{
-        display: flex;
-        flex-direction: column;
-        width: 1400px;
-        margin: 20px auto;
-        background-size: cover;
-    }
-
     .boxed-img{
         background-image: url("./images/spellit_process.png");
         background-size: contain;
@@ -781,7 +773,10 @@ table,th,td{
             width: 400px;
         }
 
-
+        p{
+            font-weight: 300px;
+        }
+        
         h1{
             font-size: 4.8rem;
             line-height: 5.5rem;
@@ -798,6 +793,7 @@ table,th,td{
 
         .gallery-image{
             padding: 20px;
+            background-size: contain;
         }
 
         .work-img {
