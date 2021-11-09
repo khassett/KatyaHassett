@@ -74,7 +74,7 @@ p{
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 1.8;
 }
 
 /* PAGE LAYOUT */
@@ -407,7 +407,7 @@ table,th,td{
     /* Minimum width of 24rem and grow to fit available space */
     /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
     border-radius: 4px;
-    overflow: hidden;
+    background-size:contain;
     height: 400px;
 }
 
@@ -598,6 +598,19 @@ table,th,td{
     margin: 20px;
     color: #000;
     line-height: 30px;
+  }
+
+  .stake-col-spellit-quote {
+    background-color: #D7D9FF;
+    border-radius: 50%;
+    height: 250px;
+    padding: 0 30px;
+    width: 250px;
+    text-align: center;
+    margin: 20px 50px 35px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
 .stake-col-edgov{
