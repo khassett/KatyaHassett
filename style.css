@@ -204,7 +204,7 @@ a {
 
 .btn-cta{
     border: 2px solid white;
-    background-color: #5D3F9E;
+    background-color: #6C57B2;
     font-size: 18px;
     margin-top: 50px;
 
@@ -409,22 +409,22 @@ table,th,td{
 }
 
 .gallery-item-1{
-    background-color: #CECBE0;
+    background-color: #DDD0E6;
     border-width: 2px;
     margin-right: 1rem;
 }
 
 .gallery-item-2{
-    background-color: #C2E4BA;
+    background-color: #C8D7B9;
 }
 
 .gallery-item-3{
-    background-color: #AFB2DA;
+    background-color: #CACFFC;
     margin-right: 1rem;
 }
 
 .gallery-item-4{
-    background-color: #FCF7C8;
+    background-color: #FFEDC2;
 }
 
 
