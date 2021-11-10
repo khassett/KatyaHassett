@@ -97,9 +97,6 @@ p{
     padding: 20px 200px 0px 100px;
 }
 
-#myTitle{
-    color: #9B8B8A;
-}    
 
 .h1-placement{
     margin-top: 70px;
@@ -207,7 +204,7 @@ a {
 
 .btn-cta{
     border: 2px solid white;
-    background-color: #773F8A;
+    background-color: #5D3F9E;
     font-size: 18px;
     margin-top: 50px;
 
@@ -234,7 +231,7 @@ a {
 
 .btn-cta:hover {
     border: 2px solid #FFFF;
-    background: #914DA8;
+    background: #7453BA;
     cursor: pointer;
     color: #fff;
 
@@ -412,23 +409,22 @@ table,th,td{
 }
 
 .gallery-item-1{
-    background-color: #f3dbf094;
-    border-color: #773F8A;
+    background-color: #CECBE0;
     border-width: 2px;
     margin-right: 1rem;
 }
 
 .gallery-item-2{
-    background-color: #cce9af;
+    background-color: #C2E4BA;
 }
 
 .gallery-item-3{
-    background-color: #b8c2e7;
+    background-color: #AFB2DA;
     margin-right: 1rem;
 }
 
 .gallery-item-4{
-    background-color: #ffe3b1;
+    background-color: #FCF7C8;
 }
 
 
