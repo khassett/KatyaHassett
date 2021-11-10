@@ -780,7 +780,7 @@ table,th,td{
     /* MOBILE MEDIA QUERY */
     @media (min-width:300px), (max-width:481px){ 
         .nav {
-            padding: 0px 20px 20px;
+            padding: 0px 50px;
         }
 
         .navbar-collapse {
