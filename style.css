@@ -412,7 +412,7 @@ table,th,td{
 }
 
 .gallery-item-1{
-    background-color: #dac4d5;
+    background-color: #f3dbf094;
     border-color: #773F8A;
     border-width: 2px;
     margin-right: 1rem;
@@ -845,6 +845,10 @@ table,th,td{
             margin-top: 50px;
             padding-bottom:0;
             text-align: center;
+        }
+
+        .narika-image {
+            height: 300px;
         }
     }
 
