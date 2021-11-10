@@ -613,21 +613,21 @@ table,th,td{
 }
 
 .stake-col-work-purp{
-    background-color: #F1E4F2;
+    background-color: #DDD0E6;
     border-radius: 8px;
     padding: 40px;
     color: #020202;
 }
 
 .stake-col-work-yellow{
-    background-color: #FFF5DA;
+    background-color: #FFEDC2;
     border-radius: 8px;
     padding: 40px;
     color: #020202;
 }
 
 .stake-col-work-blue{
-    background-color: #D0E3FF;
+    background-color: #CACFFC;
     border-radius: 8px;
     padding: 40px;
     color: #020202;
