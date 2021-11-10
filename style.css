@@ -4,7 +4,7 @@
 
 a:hover {
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 400;
     color: black;
 }
 
@@ -691,6 +691,24 @@ table,th,td{
     .narika-image{
         display: block;
         background-image: url("./images/narikalapmobile.png");
+        background-size: contain;
+        width: 100%;
+        height: 300px;
+        background-repeat: no-repeat;
+    }
+
+    .spellit-image{
+        display: block;
+        background-image: url("./images/spellit_mobile.png");
+        background-size: contain;
+        width: 100%;
+        height: 300px;
+        background-repeat: no-repeat;
+    }
+
+    .edgov-image{
+        display: block;
+        background-image: url("./images/edgov.png");
         background-size: contain;
         width: 100%;
         height: 300px;
