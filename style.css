@@ -25,7 +25,7 @@ a:hover {
 .swirl{
     position: absolute;
     z-index: -999;
-    top: 20px;
+    top: 490px;
     width: 100%;
 }
 
@@ -188,7 +188,7 @@ a {
 .wrapper {
     display: flex;
     flex-direction: row;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 80px;
 }
 
@@ -202,10 +202,10 @@ a {
 /* BUTTONS */
 
 .btn-cta{
-    border: 2px solid white;
+    border: 2px solid transparent;
     background-color: #6C57B2;
     font-size: 18px;
-    margin-top: 50px;
+    margin-top: 20px;
 
     /* Auto Layout */
     display: flex;
@@ -229,11 +229,10 @@ a {
 }
 
 .btn-cta:hover {
-    border: 2px solid #FFFF;
+    border: 2px solid transparent;
     background: #8C7BC2;
     cursor: pointer;
     color: #fff;
-
 }
 
 .hp-projects{
@@ -806,6 +805,10 @@ table,th,td{
 
     /* MOBILE MEDIA QUERY */
     @media (min-width:300px), (max-width:481px){ 
+        .swirl { 
+            top: 720px;
+        }
+
         .nav {
             padding: 0px 50px;
         }
@@ -854,7 +857,7 @@ table,th,td{
         
 
         .hp-projects {
-            padding: 30px 0 30px 0;
+            padding: 100px 0 30px 0;
         }
 
 
@@ -878,8 +881,12 @@ table,th,td{
         }
 
         .intro {
-            padding: 0 15px;
+            padding: 20px;
         }
+
+        .gallery-item-1, .gallery-item-3 {
+            margin-right: 0;
+        } 
     }
 
     /* TABLET MEDIA QUERY  */ 
@@ -933,6 +940,14 @@ table,th,td{
             margin-top: 50px;
             padding-bottom:0;
             text-align: center;
+        }
+
+        .gallery-item-1, .gallery-item-3 {
+            margin-right: 1rem;
+        }
+
+        .swirl { 
+            top: 490px;
         }
     }
 
