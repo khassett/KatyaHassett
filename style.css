@@ -700,6 +700,7 @@ table,th,td{
         background-size: contain;
         width: 100%;
         background-repeat: no-repeat;
+        background-position: right;
     }
 
     .spellit-image{
