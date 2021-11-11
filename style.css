@@ -231,7 +231,7 @@ a {
 
 .btn-cta:hover {
     border: 2px solid #FFFF;
-    background: #7453BA;
+    background: #8C7BC2;
     cursor: pointer;
     color: #fff;
 
@@ -627,7 +627,7 @@ table,th,td{
 }
 
 .stake-col-work-blue{
-    background-color: #3D50F5;
+    background-color: #CACFFC;
     border-radius: 8px;
     padding: 40px;
     color: #020202;
@@ -689,7 +689,6 @@ table,th,td{
         background-size: contain;
         width: 100%;
         background-repeat: no-repeat;
-        background-position: top right;
     }
 
     .spellit-image{
@@ -708,6 +707,28 @@ table,th,td{
         background-repeat: no-repeat;
         display: block;
     }
+
+    .nar-heuristics{
+        background-image: url("./images/heuristics.png");
+        background-size: contain;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .nar-cardsort{
+        background-image: url("./images/card_sorting.png");
+        background-size: contain;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .nar-lowfi{
+        background-image: url("./images/low-fi-testing.png");
+        background-size: contain;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+
 
     .site-footer {
         background-color:#fff;
