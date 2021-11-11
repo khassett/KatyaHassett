@@ -619,6 +619,10 @@ table,th,td{
     color: #020202;
 }
 
+.stake-col-work-purp:hover {
+    transform: scale(1.009);
+}
+
 .stake-col-work-yellow{
     background-color: #FFEDC2;
     border-radius: 8px;
@@ -626,11 +630,19 @@ table,th,td{
     color: #020202;
 }
 
+.stake-col-work-yellow:hover {
+    transform: scale(1.009);
+}
+
 .stake-col-work-blue{
     background-color: #CACFFC;
     border-radius: 8px;
     padding: 40px;
     color: #020202;
+}
+
+.stake-col-work-blue:hover {
+    transform: scale(1.009);
 }
 
   .img2{
@@ -673,9 +685,10 @@ table,th,td{
     .about-me-img{
         background-image: url("./images/camping-pic.png");
         background-size: contain;
-        width: 600px;
         background-repeat: no-repeat;
-        margin: 30px 30px;
+        height: 400px;
+        margin-left: 60px;
+        margin-top: 20px;
     }
 
     .sitemap-img{
