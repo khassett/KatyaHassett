@@ -725,6 +725,13 @@ table,th,td{
         background-position: right;
     }
 
+    .narika-csimage{
+        background-image: url("./images/narikalapmobile.png");
+        background-size: contain;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+
     .spellit-image{
         background-image: url("./images/spellit_mobile.png");
         background-size: contain;
@@ -924,9 +931,6 @@ table,th,td{
             margin-right: 0;
         } 
         
-        .green-mobile-text{
-            color: #6C57B2;
-        }
     }
 
     /* TABLET MEDIA QUERY  */ 
