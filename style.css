@@ -923,6 +923,10 @@ table,th,td{
         .gallery-item-1, .gallery-item-3 {
             margin-right: 0;
         } 
+        
+        .green-mobile-text{
+            color: #6C57B2;
+        }
     }
 
     /* TABLET MEDIA QUERY  */ 
