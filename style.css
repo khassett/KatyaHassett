@@ -361,6 +361,7 @@ table,th,td{
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
+    margin: 10px;
   }
 
   .dot-filled{
@@ -369,6 +370,7 @@ table,th,td{
     background-color: #638CCC;
     border-radius: 50%;
     display: inline-block;
+    margin: 10px;
   }
 
 .icon{
