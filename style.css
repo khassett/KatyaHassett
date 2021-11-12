@@ -746,6 +746,19 @@ table,th,td{
         background-repeat: no-repeat;
     }
 
+    .nar-lowfi1{ 
+        background-image: url("./images/low-fi-hp1.png");
+        background-size: contain;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .nar-lowfi2{ 
+        background-image: url("./images/low-fi-hp2.png");
+        background-size: contain;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
 
     .site-footer {
         background-color:#fff;
