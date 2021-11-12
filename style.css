@@ -784,6 +784,13 @@ table,th,td{
         background-repeat: no-repeat;
     }
 
+    .future-img{
+        background-image: url("./images/spellit_future.png");
+        background-size: contain;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+
     .site-footer {
         background-color:#fff;
         padding: 45px 0 20px;
