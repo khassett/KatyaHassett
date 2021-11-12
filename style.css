@@ -811,6 +811,13 @@ table,th,td{
         font-size: 12px;
       }
 
+      .sitemap-edgov{
+        background-image: url("./images/sitemap_edgov.png");
+        background-size: contain;
+        width: 100%;
+        background-repeat: no-repeat;
+      }
+
       /*Image gallery*/
       .row {
         display: -ms-flexbox; /* IE10 */
