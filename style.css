@@ -567,6 +567,13 @@ table,th,td{
     width: 50px;
 }
 
+.h2-bottom{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 50px;
+    margin-left: 20px
+}
+
 .rect{
     width: 324px;
     height: 296px;
@@ -587,16 +594,37 @@ table,th,td{
     height: 50px;
 }
 
-.star-bullet{
-    list-style: num;
-    line-height: 2rem;
-  }
 
-  .star-bullet::before {color: purple;}
+  ol {
+    counter-reset: orderedlist;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+  
+  ol li::before {
+    counter-increment: orderedlist;
+    content: counter(orderedlist);
+    font-size: 1.25em;
+    line-height: 1.75;
+    width: 1.5rem;
+    padding: 2px 10px;
+    padding-top: 0.25rem;
+    text-align: center;
+    color: #fff;
+    margin: 0 10px;
+    background-color: #592C5F;
+    border-radius: 0.25em;
+  }
+  
 
   .stake-col{
     background-color: #F0EEF3;
-    border-radius: 18px;
+    border-radius: 10px;
     padding: 20px;
     margin: 20px;
     color: #592C5F;
@@ -761,6 +789,9 @@ table,th,td{
         background-size: contain;
         width: 100%;
         background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .nar-lowfi{
