@@ -620,6 +620,11 @@ table,th,td{
     background-color: #592C5F;
     border-radius: 0.25em;
   }
+
+  .star-bullet{
+      line-height: 20px;
+      list-style: none;
+  }
   
 
   .stake-col{
@@ -722,6 +727,8 @@ table,th,td{
         margin-bottom: 70px; 
     }
 
+    /*IMAGES*/
+
     .boxed-img{
         background-image: url("./images/spellit_process.png");
         background-size: contain;
@@ -817,6 +824,12 @@ table,th,td{
 
     .future-img{
         background-image: url("./images/spellit_future.png");
+        background-size: contain;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .sitemap-img{
         background-size: contain;
         width: 100%;
         background-repeat: no-repeat;
@@ -928,10 +941,6 @@ table,th,td{
         .content-right{
             width: 100%;
             padding: 0 30px;
-        }
-
-        .sitemap-img{
-            width: 400px;
         }
 
         p{
