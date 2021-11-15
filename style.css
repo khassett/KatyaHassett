@@ -835,13 +835,30 @@ table,th,td{
         background-repeat: no-repeat;
     }
 
+    .style-guide{
+        display: flex;
+        justify-content: center;
+    }
+
     .narika-sg{
         background-image: url(./images/narika-styleguide.png);
-        width: 100%;
+        width: 70%;
         background-size: contain;
         background-repeat: no-repeat;
-        border: rebeccapurple;  
-        border-width: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+
+    img.img-fluid {
+        max-width: 100%;
+        width: 1000px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5vh 0 10vh;
     }
 
     .narika-features{
@@ -851,6 +868,13 @@ table,th,td{
         background-repeat: no-repeat;
         border: rebeccapurple;  
         border-width: 10px;
+    }
+
+    .edgov-current-img{
+        background-image: url(./images/edgov_currentsite.png);
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 
     .site-footer {
