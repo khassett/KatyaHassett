@@ -835,6 +835,15 @@ table,th,td{
         background-repeat: no-repeat;
     }
 
+    .narika-sg{
+        background-image: url(./images/narika-styleguide.png);
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        border: rebeccapurple;
+        border-width: 10px;
+    }
+
     .site-footer {
         background-color:#fff;
         padding: 45px 0 20px;
