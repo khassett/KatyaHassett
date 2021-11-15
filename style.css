@@ -840,7 +840,16 @@ table,th,td{
         width: 100%;
         background-size: contain;
         background-repeat: no-repeat;
-        border: rebeccapurple;
+        border: rebeccapurple;  
+        border-width: 10px;
+    }
+
+    .narika-features{
+        background-image: url(./images/features-narika.png);
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        border: rebeccapurple;  
         border-width: 10px;
     }
 
