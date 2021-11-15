@@ -842,7 +842,7 @@ table,th,td{
 
     .narika-sg{
         background-image: url(./images/narika-styleguide.png);
-        width: 70%;
+        width: 60%;
         background-size: contain;
         background-repeat: no-repeat;
         display: flex;
