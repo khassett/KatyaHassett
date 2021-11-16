@@ -773,6 +773,11 @@ table,th,td{
         width: 100%;
         min-height: 350px;
         background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .bg-narika-laptop:hover {
+        transform: scale(1.05); 
     }
 
     .bg-narika-mobile {
