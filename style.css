@@ -630,7 +630,7 @@ table,th,td{
     background-color: #F0EEF3;
     border-radius: 10px;
     padding: 20px;
-    margin: 20px;
+    margin: -20px;
     color: #592C5F;
   }
 
@@ -1068,7 +1068,10 @@ table,th,td{
         .gallery-item-1, .gallery-item-3 {
             margin-right: 0;
         } 
-        
+
+        .stake-col{
+            margin: 20px;
+        }
     }
 
     /* TABLET MEDIA QUERY  */ 
@@ -1099,12 +1102,12 @@ table,th,td{
             padding: 20px;
         }
 
-        .gallery {
-            flex-direction: row;
+        .stake-col{
+            margin: 20px;
         }
 
-        .sitemap-img{
-            width: 600px;
+        .gallery {
+            flex-direction: row;
         }
 
         .content-left{
