@@ -447,7 +447,6 @@ table,th,td{
     background-color: #FFEDC2;
 }
 
-
 .gallery-image {
     display: block;
     padding: 70px;
@@ -459,10 +458,6 @@ table,th,td{
 
 .gallery-image:hover {
     transform: scale(1.05);
-}
-
-.gallery-container{
-    cursor: pointer;
 }
 
 .column-center{
@@ -784,11 +779,18 @@ table,th,td{
         background-position: center center;
     }
 
+    .bg-ed-gov { 
+        background-image: url("./images/edgov.png");
+        background-size: contain;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    
     .spellit-image{
         background-image: url("./images/spellit_mobile.png");
         background-size: contain;
         width: 100%;
-        height: 300px;
         background-repeat: no-repeat;
         background-position: top right;
         background-position: center center;
@@ -801,6 +803,15 @@ table,th,td{
         background-repeat: no-repeat;
         display: block;
     }
+
+    .aom-image{
+        background-image: url("./images/aomtrading.png");
+        background-size: contain;
+        width: 100%;
+        background-repeat: no-repeat;
+        display: block;
+    }
+
 
     .nar-heuristics{
         background-image: url("./images/heuristics.png");
@@ -965,7 +976,7 @@ table,th,td{
       }  
 
     /* MOBILE MEDIA QUERY */
-    @media (min-width:300px), (max-width:481px){ 
+    @media only screen and (max-width:599px){ 
         .swirl { 
             top: 720px;
         }
@@ -979,7 +990,7 @@ table,th,td{
         }
 
         .main-content{
-            margin: 20px 20px;           
+            margin: 20px;           
         }
         
         .gallery{
@@ -1017,6 +1028,9 @@ table,th,td{
             padding: 100px 0 30px 0;
         }
 
+        .gallery-item {
+            height: 450px;
+        }
 
         .gallery-image{
             padding: 20px;
@@ -1033,10 +1047,6 @@ table,th,td{
             text-align: center;
         }
 
-        .narika-image {
-            height: 300px;
-        }
-
         .intro {
             padding: 20px;
         }
@@ -1048,18 +1058,31 @@ table,th,td{
     }
 
     /* TABLET MEDIA QUERY  */ 
-    @media (min-width: 600px) {
+    @media only screen and (max-width: 900px) {
+        h1 {
+            font-size: 4.75rem;
+            line-height: 8rem;
+        }
+
         .navbar-collapse {
             justify-content: flex-end;
             
         }
         .main-content{
-            margin: 50px 200px;           
+            margin: 10px;           
         }
 
         .wrapper {
             flex-direction: row;
             padding-bottom: 20px;
+        }
+
+        .gallery-item {
+            height: 200px;
+        }
+
+        .hp-projects {
+            padding: 20px;
         }
 
         .gallery {
@@ -1081,11 +1104,6 @@ table,th,td{
             padding: 20px 200px 0px 100px;
         }
 
-        h1 {
-            font-size: 100px;
-            line-height: 150px;
-        }
-
         .gallery-image{
             padding: 20px;
         }
@@ -1105,7 +1123,7 @@ table,th,td{
         }
 
         .swirl { 
-            top: 490px;
+            top: 590px;
         }
     }
 
