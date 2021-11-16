@@ -752,7 +752,7 @@ table,th,td{
         background-size: contain;
         width: 100%;
         background-repeat: no-repeat;
-        background-position: right;
+        background-position: top;
     }
 
     .narika-csimage{
@@ -768,6 +768,11 @@ table,th,td{
         width: 100%;
         min-height: 350px;
         background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .bg-narika-laptop:hover {
+        transform: scale(1.05); 
     }
 
     .bg-narika-mobile {
@@ -787,6 +792,10 @@ table,th,td{
         background-position: center center;
     }
     
+    .bg-narika-mobile:hover{
+        transform: scale(1.05); 
+    }
+
     .spellit-image{
         background-image: url("./images/spellit_mobile.png");
         background-size: contain;
@@ -802,6 +811,7 @@ table,th,td{
         width: 100%;
         background-repeat: no-repeat;
         display: block;
+        background-position: center;
     }
 
     .aom-image{
@@ -883,7 +893,7 @@ table,th,td{
 
     img.img-fluid {
         max-width: 100%;
-        width: 1000px;
+        width: 950px;
         display: flex;
         align-items: center;
         justify-content: center;
