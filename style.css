@@ -782,6 +782,23 @@ table,th,td{
         background-position: center center;
     }
 
+    .bg-narika-mobile:hover{
+        transform: scale(1.05); 
+    }
+
+    .bg-spellit-mobile{
+        background-image: url("./images/spellit_mobile.png");
+        background-size: contain;
+        width: 100%;
+        min-height: 350px;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .bg-spellit-laptop{
+
+    }
+
     .bg-ed-gov { 
         background-image: url("./images/edgov.png");
         background-size: contain;
@@ -790,10 +807,6 @@ table,th,td{
         background-position: center center;
     }
     
-    .bg-narika-mobile:hover{
-        transform: scale(1.05); 
-    }
-
     .spellit-image{
         background-image: url("./images/spellit_mobile.png");
         background-size: contain;
