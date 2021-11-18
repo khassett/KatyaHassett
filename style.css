@@ -13,7 +13,7 @@
 
 a:hover {
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 300;
     color: black;
 }
 
@@ -667,6 +667,7 @@ table,th,td{
 
 .stake-col-work-purp:hover {
     transform: scale(1.009);
+    box-shadow: 0px 0px 1px rgba(15, 23, 42, 0.06), 0px 20px 25px -5px rgba(15, 23, 42, 0.1), 0px 10px 10px -5px rgba(15, 23, 42, 0.04);
 }
 
 .stake-col-work-yellow{
@@ -678,6 +679,7 @@ table,th,td{
 
 .stake-col-work-yellow:hover {
     transform: scale(1.009);
+    box-shadow: 0px 0px 1px rgba(15, 23, 42, 0.06), 0px 20px 25px -5px rgba(15, 23, 42, 0.1), 0px 10px 10px -5px rgba(15, 23, 42, 0.04);
 }
 
 .stake-col-work-blue{
@@ -689,6 +691,7 @@ table,th,td{
 
 .stake-col-work-blue:hover {
     transform: scale(1.009);
+    box-shadow: 0px 0px 1px rgba(15, 23, 42, 0.06), 0px 20px 25px -5px rgba(15, 23, 42, 0.1), 0px 10px 10px -5px rgba(15, 23, 42, 0.04);
 }
 
   .img2{
@@ -793,10 +796,6 @@ table,th,td{
         min-height: 350px;
         background-repeat: no-repeat;
         background-position: center center;
-    }
-
-    .bg-spellit-laptop{
-
     }
 
     .bg-ed-gov { 
