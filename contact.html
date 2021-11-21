@@ -11,6 +11,12 @@
                 r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
                 a.appendChild(r);
             })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+
+            function sendMail() {
+                var body = document.getElementById("yourMessage").value;
+                var from = document.getElementById("yourEmail").value;
+                window.location.href = "mailto:katyahassett@gmail.com?subject=Inquiry: "+from+"&body="+body;
+            }
         </script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -54,81 +60,81 @@
         </nav>
     
 
-        <main class="main-content">
+        <main class="main-content row">
             <div>
-                <h1 class="h1-placement">LET'S CONNECT!</h1>
+                <h1 class="h1-placement mb-5">LET'S CONNECT!</h1>
             </div>
-            <section class="wrapper">
-                <div class="col-sm-5 col-xs-12 mt-5">
-                    <form id="contactForm">
-                        <div class="form-group">
-                          <label for="exampleFormControlInput1">Email address</label>
-                          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                        </div>
-                        <div class="form-group">
-                          <label for="exampleFormControlTextarea1">Message</label>
-                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
-                        <button type="submit" class="btn-cta">Submit</button>
-                      </form>
-                </div>
-                <div class="col-sm-7 col-xs-12">
-                    <div class="contact-info">
-                        <div class="mb-4">
-                            <h3>EMAIL</h3>
-                            <div>
-                                <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.30661 0.218506C1.47207 0.218506 0.795532 0.895039 0.795532 1.72958V13.8182C0.795532 14.6528 1.47207 15.3293 2.30661 15.3293H20.0078C20.8424 15.3293 21.5189 14.6528 21.5189 13.8182V1.72958C21.5189 0.895039 20.8424 0.218506 20.0078 0.218506H2.30661ZM2.09074 1.72958C2.09074 1.61036 2.18739 1.51372 2.30661 1.51372H20.0078C20.127 1.51372 20.2237 1.61036 20.2237 1.72958V2.46489L11.278 8.50924C11.205 8.55858 11.1094 8.55858 11.0363 8.50924L2.09074 2.46492V1.72958ZM2.09074 4.02807V13.8182C2.09074 13.9374 2.18739 14.0341 2.30661 14.0341H20.0078C20.127 14.0341 20.2237 13.9374 20.2237 13.8182V4.02804L12.0032 9.58244C11.4921 9.92779 10.8223 9.92779 10.3112 9.58244L2.09074 4.02807Z" fill="#24292E"/>
-                                </svg>
-                            </div>
-                            <p><a href="mailto: katyahassett@gmail.com">katyahassett@gmail.com</a></p>
-                        </div>
-                        <div>
-                            <h3>LINKEDIN</h3>
-                            <div>
-                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <ellipse cx="15.1572" cy="14.9693" rx="11.8008" ry="11.8008" fill="#181717"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.074 9.23635C12.074 9.971 11.5146 10.5655 10.6399 10.5655C9.79917 10.5655 9.23979 9.971 9.2571 9.23635C9.23979 8.46599 9.79916 7.88876 10.6566 7.88876C11.5146 7.88876 12.0572 8.46599 12.074 9.23635ZM9.32744 20.1728V11.6156H11.9869V20.1723H9.32744V20.1728Z" fill="white"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.1184 14.3467C14.1184 13.2794 14.0833 12.3694 14.0481 11.6169H16.3581L16.4809 12.7892H16.5334C16.8834 12.2466 17.7582 11.4249 19.1755 11.4249C20.9251 11.4249 22.2375 12.5799 22.2375 15.0987V20.1742H19.578V15.4319C19.578 14.3289 19.1934 13.5769 18.231 13.5769C17.4958 13.5769 17.0587 14.0843 16.8839 14.5739C16.8136 14.7492 16.779 14.9937 16.779 15.2393V20.1742H14.1195V14.3467H14.1184Z" fill="white"/>
-                                </svg>        
-                            </div>
-                            <p>www.linkedin.com/in/katya-hassett</p>
-                        </div>
-
-                            
+            <div class="col-sm-5 col-xs-12 mt-5 mb-5">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="yourEmail">Your Email</label>
+                        <input type="email" class="form-control" id="yourEmail" placeholder="name@example.com">
                     </div>
-                    
+
+                    <div class="form-group">
+                        <label for="yourMessage">Your Message</label>
+                        <textarea class="form-control" id="yourMessage" rows="3"></textarea>
+                    </div>
+
+                    <button class="btn-cta" onclick="sendMail()">Send</button>
+                    </form>
+            </div>
+            <div class="col-sm-7 col-xs-12">
+                <div class="contact-info">
+                    <div class="mb-4">
+                        <h3>EMAIL</h3>
+                        <div>
+                            <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M2.30661 0.218506C1.47207 0.218506 0.795532 0.895039 0.795532 1.72958V13.8182C0.795532 14.6528 1.47207 15.3293 2.30661 15.3293H20.0078C20.8424 15.3293 21.5189 14.6528 21.5189 13.8182V1.72958C21.5189 0.895039 20.8424 0.218506 20.0078 0.218506H2.30661ZM2.09074 1.72958C2.09074 1.61036 2.18739 1.51372 2.30661 1.51372H20.0078C20.127 1.51372 20.2237 1.61036 20.2237 1.72958V2.46489L11.278 8.50924C11.205 8.55858 11.1094 8.55858 11.0363 8.50924L2.09074 2.46492V1.72958ZM2.09074 4.02807V13.8182C2.09074 13.9374 2.18739 14.0341 2.30661 14.0341H20.0078C20.127 14.0341 20.2237 13.9374 20.2237 13.8182V4.02804L12.0032 9.58244C11.4921 9.92779 10.8223 9.92779 10.3112 9.58244L2.09074 4.02807Z" fill="#24292E"/>
+                            </svg>
+                        </div>
+                        <p><a href="#" onClick="sendMail()">katyahassett@gmail.com</a></p>
+                    </div>
+                    <div>
+                        <h3>LINKEDIN</h3>
+                        <div>
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <ellipse cx="15.1572" cy="14.9693" rx="11.8008" ry="11.8008" fill="#181717"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.074 9.23635C12.074 9.971 11.5146 10.5655 10.6399 10.5655C9.79917 10.5655 9.23979 9.971 9.2571 9.23635C9.23979 8.46599 9.79916 7.88876 10.6566 7.88876C11.5146 7.88876 12.0572 8.46599 12.074 9.23635ZM9.32744 20.1728V11.6156H11.9869V20.1723H9.32744V20.1728Z" fill="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M14.1184 14.3467C14.1184 13.2794 14.0833 12.3694 14.0481 11.6169H16.3581L16.4809 12.7892H16.5334C16.8834 12.2466 17.7582 11.4249 19.1755 11.4249C20.9251 11.4249 22.2375 12.5799 22.2375 15.0987V20.1742H19.578V15.4319C19.578 14.3289 19.1934 13.5769 18.231 13.5769C17.4958 13.5769 17.0587 14.0843 16.8839 14.5739C16.8136 14.7492 16.779 14.9937 16.779 15.2393V20.1742H14.1195V14.3467H14.1184Z" fill="white"/>
+                            </svg>        
+                        </div>
+                        <p>www.linkedin.com/in/katya-hassett</p>
+                    </div>
+
+                        
                 </div>
-            </section>
+                
+            </div>
         </main>
 
-                <!-- Site footer -->
-                <footer class="site-footer">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12 col-md-4 pl-0">
-                                <h6>Katya Hassett</h6>
-                                <p>UX/UI Designer</p>
-                            </div>
-                
-                            <div class="col-xs-8 col-md-4">
-                                <h6>Social</h6>
-                                <p><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/katya-hassett">LinkedIn</a></p>
-                            </div>
-                
-                            <div class="col-xs-8 col-md-4">
-                                <h6>Connect</h6>
-                                <p><a href="mailto: katyahassett@gmail.com">katyahassett@gmail.com</a></p>
-                            </div>
-                        </div>
+        <!-- Site footer -->
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4 pl-0">
+                        <h6>Katya Hassett</h6>
+                        <p>UX/UI Designer</p>
                     </div>
         
-                    <div class="container">
-                        <p class="copyright-text text-center text-muted pt-5">Copyright &copy; 2021</br>All Rights Reserved by 
-                            <a href="#">Katya Hassett</a>.
-                        </p>
+                    <div class="col-xs-8 col-md-4">
+                        <h6>Social</h6>
+                        <p><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/katya-hassett">LinkedIn</a></p>
                     </div>
-                </footer>
+        
+                    <div class="col-xs-8 col-md-4">
+                        <h6>Connect</h6>
+                        <p><a href="mailto: katyahassett@gmail.com">katyahassett@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <p class="copyright-text text-center text-muted pt-5">Copyright &copy; 2021</br>All Rights Reserved by 
+                    <a href="#">Katya Hassett</a>.
+                </p>
+            </div>
+        </footer>
         
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Bootstrap JS -->
