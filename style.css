@@ -619,6 +619,48 @@ table,th,td{
       list-style: none;
   }
   
+  .thought {
+    display:flex;
+    background-color:#FFEDC2;
+    padding:20px;
+    border-radius:30px;
+    min-width:40px;
+    max-width:250px;
+    min-height:40px;
+    margin:40px;
+    position:relative;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+  }
+  
+  .thought:before,
+  .thought:after {
+    content:"";
+    background-color:#FFEDC2;
+    border-radius:50%;
+    display:block;
+    position:absolute;
+    z-index:-1;
+  }
+  .thought:before {
+    width:44px;
+    height:44px;
+    top:-12px;
+    left:28px;
+    box-shadow:-50px 30px 0 -12px #FFEDC2;
+  }
+  .thought:after {
+    bottom:-10px;
+    right:26px;
+    width:30px;
+    height:30px;
+    box-shadow:40px -34px 0 0 #FFEDC2,
+               -28px -6px 0 -2px #FFEDC2,
+               -24px 17px 0 -6px #FFEDC2,
+               -5px 25px 0 -10px #FFEDC2;
+    
+  }
 
   .stake-col{
     background-color: #F0EEF3;
