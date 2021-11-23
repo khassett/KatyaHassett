@@ -253,8 +253,6 @@ a {
     margin: auto;
 }
 
-
-
 .logo-footer{
     height: max-content;
 }
@@ -342,7 +340,7 @@ table,th,td{
     td
     {
       height:40px;
-      padding: 30px 15px;
+      padding: 25px 20px;
 
     }
     tr
@@ -357,7 +355,7 @@ table,th,td{
       color: #fff;
       font-weight: 300;
       font-size: 32px;
-      padding: 0 15px;
+      padding: 5px 0 5px 25px;
 }
 .dot{
     height: 25px;
@@ -376,11 +374,6 @@ table,th,td{
     display: inline-block;
     margin: 10px;
   }
-
-.icon{
-    width: 100px;
-}
-
 
 *,
 *::before,
@@ -745,7 +738,6 @@ table,th,td{
   .h2-center{
       text-align: center;
   }
-
 
    .purple-background{
     background-color: #f0eef3;
