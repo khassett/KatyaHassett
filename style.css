@@ -483,8 +483,6 @@ table,th,td{
     width: 100%;
 }
 
-
-
 .contact-info{
     display: flex;
     flex-direction: column;
@@ -672,6 +670,14 @@ table,th,td{
     padding: 20px;
     margin: -20px;
     color: #592C5F;
+  }
+
+  .stake-col-sc{
+    background-color: #ffe1e6;
+    border-radius: 10px;
+    padding: 30px;
+    margin: -20px;
+    color: #000;
   }
 
   .stake-col-spellit{
