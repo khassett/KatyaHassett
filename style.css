@@ -431,7 +431,7 @@ table,th,td{
 .gallery-item {
     /* Minimum width of 24rem and grow to fit available space */
     /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
-    border-radius: 4px;
+    border-radius: 4px;s
     background-size:contain;
     height: 400px;
 }
