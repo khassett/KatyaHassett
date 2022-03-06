@@ -38,6 +38,10 @@ a:hover {
     width: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* STYLING */
 h1{
     font-family: Poppins;
