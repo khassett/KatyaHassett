@@ -436,9 +436,14 @@ table,th,td{
     height: 400px;
 }
 
+.gallery-item-sc{
+    background-color: #F7DCE0;
+    border-width: 2px;
+    margin-right: 1rem;
+}
+
 .gallery-item-1{
     background-color: #DDD0E6;
-    border-width: 2px;
     margin-right: 1rem;
 }
 
@@ -824,6 +829,17 @@ table,th,td{
         width: 800px;
     }
 
+    .smartcourse-image{
+        background-image: url("./images/sc-summit.png");
+        background-size: contain;
+        display: flex;
+        margin: auto;
+        width: 70%;
+        border-radius: 5%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
     .narika-image{
         background-image: url("./images/narikalapmobile.png");
         background-size: contain;
@@ -917,8 +933,10 @@ table,th,td{
         background-image: url("./images/aomtrading.png");
         background-size: contain;
         width: 100%;
+        margin: auto;
         background-repeat: no-repeat;
         display: block;
+        background-position: center;
     }
 
     .img-edgov{
@@ -1188,11 +1206,6 @@ table,th,td{
             height: 450px;
         }
 
-        .gallery-image{
-            padding: 20px;
-            background-size: contain;
-        }
-
         .work-img {
            max-width: 250px;  
         }
@@ -1274,10 +1287,6 @@ table,th,td{
         .content-right{
             width: 50%;
             padding: 20px 200px 0px 100px;
-        }
-
-        .gallery-image{
-            padding: 20px;
         }
 
         .work-img {
