@@ -984,6 +984,17 @@ table,th,td{
         background-position: right;
     }
 
+    .smartcourse-logo{
+        background-image: url("./images/sc-logo.png");
+        background-size:cover;
+        width: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-position: right;
+    }
+
     .bg-narika-mobile {
         background-image: url("./images/narika-mobile.png");
         background-size: contain;
