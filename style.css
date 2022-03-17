@@ -46,8 +46,8 @@ html {
 h1{
     font-family: Poppins;
     font-style: normal;
-    font-weight: 600;
-    font-size: 100px;
+    font-weight: 500;
+    font-size: 80px;
     line-height: 150px;
     letter-spacing: 0.025em;
 }
@@ -80,6 +80,15 @@ h4{
 h4:before, h4:after {
     background-color: #fff;
     content: " ";
+}
+
+h5{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 150px;
+    letter-spacing: 0.025em;
 }
 
 p{
@@ -435,9 +444,13 @@ table,th,td{
 .gallery-item {
     /* Minimum width of 24rem and grow to fit available space */
     /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
-    border-radius: 4px;s
+    border-radius: 4px;
     background-size:contain;
     height: 400px;
+}
+
+.background-sc{
+    background-color: #E2EDF5;
 }
 
 .gallery-item-sc{
@@ -834,14 +847,16 @@ table,th,td{
     }
 
     .smartcourse-image{
-        background-image: url("./images/sc-summit.png");
+        background-image: url("./images/sc-laptop.png");
         background-size: contain;
         display: flex;
+        align-items: center;
         margin: auto;
-        width: 70%;
+        width: 50%;
         border-radius: 5%;
         background-repeat: no-repeat;
         background-position: center;
+        padding-top: 3vh;
     }
 
     .narika-image{
@@ -873,16 +888,79 @@ table,th,td{
     }
 
     .bg-smartcourse-laptop {
-        background-image: url("./images/smartcourse_mockup.png");
+        background-image: url("./images/sc-laptop.png");
         background-size: contain;
+        padding-left: 2vh;
         width: 100%;
         min-height: 450px;
         background-repeat: no-repeat;
         background-position: center center;
     }
 
-    .bg-smartcourse-laptop:hover {
-        transform: scale(1.05); 
+    .smartcourse-persona {
+        background-image: url("./images/sc-targetpersona.png");
+        background-size: contain;
+        width: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-position: center center;
+    }
+
+    .smartcourse-og-hp1{
+        background-image: url("./images/sc-og-homepage1.png");
+        background-size: contain;
+        width: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-position: right;
+    }
+
+    .smartcourse-og-hp2{
+        background-image: url("./images/sc-og-homepage2.png");
+        background-size: contain;
+        width: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-position: right;
+    }
+
+    .smartcourse-hp-sketch{
+        background-image: url("./images/sc-hp-sketch.png");
+        background-size: contain;
+        width: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-position: right;
+    }
+
+    .smartcourse-og-lightbox{
+        background-image: url("./images/sc-og-salespopup.png");
+        background-size: contain;
+        width: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-position: right;
+    }
+
+    .smartcourse-new-lightbox{
+        background-image: url("./images/lightbox_updated.png");
+        background-size:cover;
+        width: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-position: right;
     }
 
     .bg-narika-mobile {
