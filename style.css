@@ -48,7 +48,6 @@ h1{
     font-style: normal;
     font-weight: 500;
     font-size: 80px;
-    line-height: 150px;
     letter-spacing: 0.025em;
 }
 
@@ -921,6 +920,28 @@ table,th,td{
 
     .smartcourse-og-hp2{
         background-image: url("./images/sc-og-homepage2.png");
+        background-size: contain;
+        width: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-position: right;
+    }
+
+    .smartcourse-hp-figma1{
+        background-image: url("./images/sc-hp-figma1.png");
+        background-size: contain;
+        width: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-position: right;
+    }
+
+    .smartcourse-hp-figma2{
+        background-image: url("./images/sc-hp-figma2.png");
         background-size: contain;
         width: 100%;
         background-repeat: no-repeat;
