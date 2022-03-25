@@ -870,6 +870,7 @@ table,th,td{
         background-size: contain;
         width: 100%;
         background-repeat: no-repeat;
+        background-position: center center;
     }
 
     .bg-narika-laptop {
